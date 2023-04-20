@@ -10,7 +10,6 @@ To use this API, you'll need to have .NET installed on your machine. You can dow
 
 You'll also need to have the Microsoft Playwright library installed. You can install it using the following command:
 
-csharpCopy code
 
 `dotnet add package Microsoft.Playwright`
 
@@ -21,13 +20,10 @@ Usage
 
 The API provides a single endpoint for sending and receiving messages to and from the chatbot:
 
-bashCopy code
 
 `GET /chat?q={message}`
 
 To send a message to the chatbot, simply make a GET request to this endpoint, replacing `{message}` with the message you want to send. For example:
-
-bashCopy code
 
 `GET http://localhost:5001/chat?q=Hello`
 
